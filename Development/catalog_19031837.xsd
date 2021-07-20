@@ -1,0 +1,49 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music.com" xmlns:dub="http://www.music.com/dub/xml/" xmlns:rock="http://www.music.com/rock/xml/" xmlns:jazz="http://www.music.com/jazz/xml/" xmlns:cm="http://www.music.com/cm/xml/" xmlns:pop="http://www.music.com/pop/xml/" targetNamespace="http://www.music.com">
+	<xs:import namespace="http://www.music.com/dub/xml/" schemaLocation="dub.xsd"/>
+	<xs:import namespace="http://www.music.com/rock/xml/" schemaLocation="rock.xsd"/>
+	<xs:import namespace="http://www.music.com/jazz/xml/" schemaLocation="jazz.xsd"/>
+	<xs:import namespace="http://www.music.com/cm/xml/" schemaLocation="cm.xsd"/>
+	<xs:import namespace="http://www.music.com/pop/xml/" schemaLocation="pop.xsd"/>
+
+	<xs:element name="Store">
+		<xs:complexType>
+			<xs:sequence>				
+				<xs:element name="logo" type="xs:string" form="qualified"/>
+				<xs:element name="nameOfStore" maxOccurs="1" form="qualified">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="estdDate" type="xs:string"/>
+								<xs:attribute name="storeID" type="xs:positiveInteger"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="address" maxOccurs="1" form="qualified">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="country" type="xs:string" form="qualified"/>
+							<xs:element name="city" type="xs:string" form="qualified"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="website" type="xs:string" form="qualified"/>
+				<xs:element name="email" type="xs:string" form="qualified"/>
+				<xs:element name="contact" maxOccurs="1" form="qualified">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mobileNumber" type="xs:positiveInteger" form="qualified"/>
+							<xs:element name="landline" type="xs:positiveInteger" form="qualified"/>					 
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="dub:genre"/>
+				<xs:element ref="rock:genre"/>
+				<xs:element ref="jazz:genre"/>
+				<xs:element ref="cm:genre"/>
+				<xs:element ref="pop:genre"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

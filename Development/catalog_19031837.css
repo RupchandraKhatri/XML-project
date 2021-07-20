@@ -1,0 +1,157 @@
+Store{
+	background-color: yellow;
+	text-align: center;
+	margin: 5em;
+	font-size: 80%;
+	display: block;
+	font-family: sans-serif;
+	padding: 20px;
+
+}
+
+section{
+	display: block;
+	border: 2px solid black;
+	margin: 25em;
+	padding: 5px;
+	background-color: whitesmoke;
+}
+
+nameOfStore::before{
+	content: "Store Name: ";
+	font-weight: bold;
+}
+
+category::before{
+	content: "Genre Type: ";
+}
+
+nameOfSong::before{
+	content: "Song: ";
+	font-weight: bold;
+}
+
+director::before{
+	content: "Director: ";
+	font-weight: bold;
+}
+
+singerName::before{
+	content: "Singer Name: ";
+	font-weight: bold;
+}
+
+gender::before{
+	content: "Gender: ";
+	font-weight: bold;
+}
+
+writerName::before{
+	content: "Writer Name: ";
+	font-weight: bold;
+}
+
+E-mail::before{
+	content: "E-mail: ";
+	font-weight: bold;
+}
+
+producer::before{
+	content: "Producer: ";
+	font-weight: bold;
+}
+price::before{
+	content: "Price of Album: ";
+	font-weight: bold;
+}
+
+releasedYear::before{
+	content: "Released Year: ";
+	font-weight: bold;
+}
+
+name, address, website, E-mail, contact{
+	color: blue;
+	width: 100%;
+	font-size: 20px;
+
+}
+
+country, city, mobileNumber, landline{
+	font-size: 15px;
+	color: red;
+	display: flex;
+	flex-flow: column wrap;
+
+}
+
+logo{
+	background-image: url("./Images/logo.jpg");
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 30px;
+	text-align: left
+}
+
+
+genre{
+	display: block; font-family: Arial, Helvetica, sans-serif; font-size: 12pt; margin: 10px 0px 10px 80px; width: 500px;
+    border: 2px solid black; padding: 5px; 
+    background-color: pink; 
+    font-size: 15px;
+	color: white;
+	display: flex;
+	flex-flow: column wrap;
+	margin-bottom: 5em;
+}
+
+category, album{
+	font-size: 20px;
+	color: blue;
+	text-decoration: underline;
+
+}
+
+songs{
+	font-size: 15px;
+	color: black;
+	display: flex;
+	flex-flow: column wrap;
+	display: list-item;
+	text-align: left;
+}
+
+nameOfSong, director, singer, writer, producer {
+	font-size: 15px;
+	color: black;
+	display: list-item;
+	text-align: left;
+		margin-bottom: 0.5em;
+} 
+
+firstName, middleName, lastName, singerName, writerName, name{
+	font-size: 15px;
+	color: black;
+}
+
+singer > gender {
+	margin-bottom: 0.5em;
+	padding-left: : 1em;
+	display: list-item;
+	text-align: left;
+}
+
+price, releasedYear,E-mail, gender {
+	font-size: 15px;
+	color: black;
+	display: flex;
+	display: list-item;
+	text-align: left;
+	margin-bottom: 0.5em;
+} 

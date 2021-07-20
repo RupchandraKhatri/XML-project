@@ -1,0 +1,36 @@
+<!ELEMENT Store (nameOfStore,address+,website,E-mail,contact+,logo,genre+)>
+<!ATTLIST name estdDate CDATA #FIXED "2000/01/05">
+<!ATTLIST name storeID CDATA #FIXED "110">
+<!ELEMENT address (country,city)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact (mobileNumber?,landline)>
+<!ELEMENT mobileNumber (#PCDATA)>
+<!ELEMENT landline (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT genre (category,album+)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT album (songs+,price,releasedYear)>
+<!ATTLIST album name CDATA #REQUIRED>
+<!ELEMENT songs (nameOfSongs,director+, singer+, writer+, producer+)>
+<!ATTLIST songs length CDATA #REQUIRED>
+<!ELEMENT nameOfSongs (#PCDATA)>
+<!ELEMENT director (firstName,middleName?,lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT singer (singerName+,gender)>
+<!ATTLIST singer age CDATA #REQUIRED>
+<!ELEMENT singerName (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT writer (writerName,E-mail?)>
+<!ATTLIST writer title (Mr.|Mrs.) #IMPLIED>
+<!ELEMENT writerName (#PCDATA)>
+<!ELEMENT E-mail (#PCDATA)>
+<!ELEMENT producer (name*,age)>
+<!ATTLIST producer age CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT releasedYear (#PCDATA)>

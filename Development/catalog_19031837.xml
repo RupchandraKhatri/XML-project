@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE Store SYSTEM "catalog_19031837.dtd">  <!-- Linking with external DTD -->
+<?xml-stylesheet type="text/css" href="catalog_19031837.css"?> <!--Linking with CSS-->
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.music.com" xsi:schemaLocation="http://www.music.com catalog_19031837.xsd">       <!--Linking with external Schema-->
+	<nameOfStore estdDate="2000/01/05" storeID="110" xmlns="http://www.music.com">John Music Store</nameOfStore>
+	<address>
+		<country>America</country>
+		<city>New-York</city>
+	</address>
+	<website>https://www.johnMusicStore.com/</website>
+	<email>rup01@gmail.com</email>
+	<contact>
+		<mobileNumber>9800000012</mobileNumber>
+		<landline>021555575</landline>
+	</contact>
+	<logo></logo>
+	<!--Album details according to genre-->
+	<section>
+	<dub:genre xmlns:dub="http://www.music.com/dub/xml/">
+		<dub:category>Dubstep</dub:category>
+		<dub:album name="The Beatles">
+			<dub:songs length="00:05:05">
+				<dub:nameOfSong>Hey Jude</dub:nameOfSong>
+				<dub:director>
+					<dub:firstName>Herbert</dub:firstName>
+					<dub:middleName>Von</dub:middleName>
+					<dub:lastName>Karajan</dub:lastName>
+				</dub:director>
+				<dub:singer>
+					<dub:singerName age="24">Beatles</dub:singerName>
+					<dub:gender>Male</dub:gender>
+				</dub:singer>
+				<dub:writer title="Mr.">
+					<dub:writerName>Drake</dub:writerName>
+					<dub:E-mail>drake05@gmail.com</dub:E-mail>
+				</dub:writer>
+				<dub:producer age="25">
+					<dub:name>Brian Wilson</dub:name>
+				</dub:producer>
+				<dub:producer age="23">
+					<dub:name>Wiz Khalifa</dub:name>
+				</dub:producer>
+			</dub:songs>
+			<dub:songs length="00:03:05">
+				<dub:nameOfSong>Where are u now</dub:nameOfSong>
+				<dub:director>
+					<dub:firstName>Herbert</dub:firstName>
+					<dub:middleName>Von</dub:middleName>
+					<dub:lastName>Karajan</dub:lastName>
+				</dub:director>
+				<dub:singer>
+					<dub:singerName age="26">Zomboy</dub:singerName>
+					<dub:gender>Male</dub:gender>
+				</dub:singer>
+				<dub:writer title="Mr.">
+					<dub:writerName>Woo Boost</dub:writerName>
+					<dub:E-mail>boost09@gmail.com</dub:E-mail>
+				</dub:writer>
+				<dub:producer age="28">
+					<dub:name>Ellie Goulding</dub:name>
+				</dub:producer>
+				<dub:producer age="25">
+					<dub:name>Illenium</dub:name>
+				</dub:producer>
+			</dub:songs>
+			<dub:price>$35</dub:price>
+			<dub:releasedYear>2019</dub:releasedYear>
+		</dub:album>
+	</dub:genre>
+	<rock:genre xmlns:rock="http://www.music.com/rock/xml/">
+		<rock:category>Rock</rock:category>
+		<rock:album name="Highway to hell">
+			<rock:songs length="00:04:30">
+				<rock:nameOfSong>Highway to hell</rock:nameOfSong>
+				<rock:director>
+					<rock:firstName>Andre</rock:firstName>
+					<rock:lastName>previn</rock:lastName>
+				</rock:director>
+				<rock:singer>
+					<rock:singerName age="29">Kim Carnes</rock:singerName>
+					<rock:gender>Female</rock:gender>
+				</rock:singer>
+				<rock:writer title="Mr.">
+					<rock:writerName>Drake</rock:writerName>
+				</rock:writer>
+				<rock:producer age="25">
+					<rock:name>Jeremy</rock:name>
+				</rock:producer>
+			</rock:songs>
+			<rock:songs length="00:04:15">
+				<rock:nameOfSong>Its all up to you</rock:nameOfSong>
+				<rock:director>
+					<rock:firstName>Eric</rock:firstName>
+					<rock:lastName>Carmen</rock:lastName>
+				</rock:director>
+				<rock:singer>
+					<rock:singerName age="29">Jim Caplidi</rock:singerName>
+					<rock:gender>Male</rock:gender>
+				</rock:singer>
+				<rock:writer title="Mr.">
+					<rock:writerName>Paul Anka</rock:writerName>
+				</rock:writer>
+				<rock:producer age="25">
+					<rock:name>Will Smith</rock:name>
+				</rock:producer>
+			</rock:songs>
+			<rock:songs length="00:03:15">
+				<rock:nameOfSong>Somebody's eyes</rock:nameOfSong>
+				<rock:director>
+					<rock:firstName>Colin</rock:firstName>
+					<rock:lastName>Blunt</rock:lastName>
+				</rock:director>
+				<rock:singer>
+					<rock:singerName age="26">Karla Bonoff</rock:singerName>
+					<rock:gender>Female</rock:gender>
+				</rock:singer>
+				<rock:writer title="Mrs.">
+					<rock:writerName>Debby Boone</rock:writerName>
+				</rock:writer>
+				<rock:producer age="24">
+					<rock:name>Gary Wilson</rock:name>
+				</rock:producer>
+			</rock:songs>
+			<rock:price>$50</rock:price>
+			<rock:releasedYear>2019</rock:releasedYear>
+		</rock:album>
+	</rock:genre>
+	<jazz:genre xmlns:jazz="http://www.music.com/jazz/xml/">
+		<jazz:category>Jazz</jazz:category>
+		<jazz:album name="The bodygaurd">
+			<jazz:songs length="00:03:35">
+				<jazz:nameOfSong>Ceora</jazz:nameOfSong>
+				<jazz:director>
+					<jazz:firstName>Simon</jazz:firstName>
+					<jazz:lastName>rattle</jazz:lastName>
+				</jazz:director>
+				<jazz:singer>
+					<jazz:singerName age="20">Lee Morgan</jazz:singerName>
+					<jazz:gender>Male</jazz:gender>
+				</jazz:singer>
+				<jazz:writer title="Mr.">
+					<jazz:writerName>Miles Davis</jazz:writerName>
+					<jazz:E-mail>miles04@gmail.com</jazz:E-mail>
+				</jazz:writer>
+				<jazz:producer age="28">
+					<jazz:name>John legend</jazz:name>
+				</jazz:producer>
+				<jazz:producer age="22">
+					<jazz:name>Tony Stark</jazz:name>
+				</jazz:producer>
+			</jazz:songs>
+			<jazz:songs length="00:02:55">
+				<jazz:nameOfSong>Bumpin' on Sunset</jazz:nameOfSong>
+				<jazz:director>
+					<jazz:firstName>Dave</jazz:firstName>
+					<jazz:lastName>Brubeck</jazz:lastName>
+				</jazz:director>
+				<jazz:singer>
+					<jazz:singerName age="20">Wes Montogomery</jazz:singerName>
+					<jazz:gender>Male</jazz:gender>
+				</jazz:singer>
+				<jazz:writer title="Mr.">
+					<jazz:writerName>Duke Ellington</jazz:writerName>
+					<jazz:E-mail>duke08@gmail.com</jazz:E-mail>
+				</jazz:writer>
+				<jazz:producer age="28">
+					<jazz:name>John legend</jazz:name>
+				</jazz:producer>
+				<jazz:producer age="25">
+					<jazz:name>Peter Parker</jazz:name>
+				</jazz:producer>
+			</jazz:songs>
+			<jazz:price>$30</jazz:price>
+			<jazz:releasedYear>2019</jazz:releasedYear>
+		</jazz:album>
+	</jazz:genre>
+	<cm:genre xmlns:cm="http://www.music.com/cm/xml/">
+		<cm:category>Country Music</cm:category>
+		<cm:album name="Back in Black" >
+			<cm:songs length="00:05:05">
+				<cm:nameOfSong>Beautiful</cm:nameOfSong>
+				<cm:director>
+					<cm:firstName>Paul</cm:firstName>
+					<cm:middleName>Bowie</cm:middleName>
+					<cm:lastName>Simon</cm:lastName>
+				</cm:director>
+				<cm:singer>
+					<cm:singerName age="23">Bruce Springsteen</cm:singerName>
+					<cm:gender>Male</cm:gender>
+				</cm:singer>
+				<cm:writer title="Mr.">
+					<cm:writerName>David Bowie</cm:writerName>
+					<cm:E-mail>David05@gmail.com</cm:E-mail>
+				</cm:writer>
+				<cm:producer age="23">
+					<cm:name>Quincy jones</cm:name>
+				</cm:producer>
+			</cm:songs>
+			<cm:songs length="00:04:00">
+				<cm:nameOfSong>Hangover</cm:nameOfSong>
+				<cm:director>
+					<cm:firstName>John</cm:firstName>
+					<cm:middleName>wade</cm:middleName>
+					<cm:lastName>Lennon</cm:lastName>
+				</cm:director>
+				<cm:singer>
+					<cm:singerName age="29">Max Martin</cm:singerName>
+					<cm:gender>Male</cm:gender>
+				</cm:singer>
+				<cm:writer title="Mr.">
+					<cm:writerName>Bob Dylan</cm:writerName>
+					<cm:E-mail>bob01@gmail.com</cm:E-mail>
+				</cm:writer>
+				<cm:producer age="23">
+					<cm:name>Mark Allison</cm:name>
+				</cm:producer>
+			</cm:songs>
+			<cm:songs length="00:03:05">
+				<cm:nameOfSong>Roar</cm:nameOfSong>
+				<cm:director>
+					<cm:firstName>Michael</cm:firstName>
+					<cm:middleName>tilson</cm:middleName>
+					<cm:lastName>thomas</cm:lastName>
+				</cm:director>
+				<cm:singer>
+					<cm:singerName age="23">Taylor Swift</cm:singerName>
+					<cm:gender>Female</cm:gender>
+				</cm:singer>
+				<cm:writer title="Mrs.">
+					<cm:writerName>Kelly Clarkson</cm:writerName>
+					<cm:E-mail>kelly00@gmail.com</cm:E-mail>
+				</cm:writer>
+				<cm:producer age="24">
+					<cm:name>Jane Wilson</cm:name>
+				</cm:producer>
+			</cm:songs>
+			<cm:price>$45</cm:price>
+			<cm:releasedYear>2019</cm:releasedYear>
+		</cm:album>
+	</cm:genre>
+	<pop:genre xmlns:pop="http://www.music.com/pop/xml/">
+		<pop:category>Pop</pop:category>
+		<pop:album name="Come on Over">
+			<pop:songs length="00:05:05">
+				<pop:nameOfSong>RapGod</pop:nameOfSong>
+				<pop:director>
+					<pop:firstName>leonard</pop:firstName>
+					<pop:lastName>bernstein</pop:lastName>
+				</pop:director>
+				<pop:singer>
+					<pop:singerName age="25">Eminem</pop:singerName>
+					<pop:gender>Male</pop:gender>
+				</pop:singer>
+				<pop:writer title="Mr.">
+					<pop:writerName>Drake</pop:writerName>
+				</pop:writer>
+				<pop:producer age="30">
+					<pop:name>Brian Eno</pop:name>
+				</pop:producer>
+				<pop:producer age="25">
+					<pop:name>Beyonce</pop:name>
+				</pop:producer>
+				<pop:producer age="23">
+					<pop:name>Phil spector</pop:name>
+				</pop:producer>
+			</pop:songs>
+			<pop:songs length="00:03:05">
+				<pop:nameOfSong>Baby</pop:nameOfSong>
+				<pop:director>
+					<pop:firstName>Lady</pop:firstName>
+					<pop:lastName>Gaga</pop:lastName>
+				</pop:director>
+				<pop:singer>
+					<pop:singerName age="23">Justin Bieber</pop:singerName>
+					<pop:gender>Male</pop:gender>
+				</pop:singer>
+				<pop:writer title="Mrs.">
+					<pop:writerName>Taylor Swift</pop:writerName>
+				</pop:writer>
+				<pop:producer age="30">
+					<pop:name>Madonna</pop:name>
+				</pop:producer>
+				<pop:producer age="25">
+					<pop:name>Rihanna</pop:name>
+				</pop:producer>
+				<pop:producer age="28">
+					<pop:name>Mariah Carey</pop:name>
+				</pop:producer>
+			</pop:songs>
+			<pop:price>$25</pop:price>
+			<pop:releasedYear>2019</pop:releasedYear>
+		</pop:album>
+	</pop:genre>
+</section>
+</Store>
+
